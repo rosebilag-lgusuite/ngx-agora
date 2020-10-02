@@ -85,4 +85,5 @@ export interface ClientConfig {
    * the TURN Server.
    */
   turnServer?: TurnServer;
+  areaCode: string[];
 }
